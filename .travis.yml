@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: Am9Fv6w+t2EA0fupcbm2nNimmA8cgYSkWUhnZqHbBDq0mY8VK7YV1a+bTR+4VghIkHlGQoazO4N3lV3jmdddCQ1zYjKgP6KV9GL+rn6ZNbj7zOpsDkxI/pbP6TxGDcQAD6m+YLHKy4iLXpzxofXIpV2otghHhX7oAKe5MvBViHuEQ5ZrcribzJtrKRHdUyrAuq+2tXPWfmoD+8D1kXU0Jxxpe1ja7FQ7Yb/TjxMKPuDLkez6DFPYQLyLsrMOhXqsUYF1yvCyepxMrq9e9UIUJwzQcw6ND1hfxEWdfZm7mK1KHGgO2tBnXmXCZTx7Y5ud+U6sUWzKf7JazTuEXcDCAxMocck5donP4ymkQDLOOQdQh0QihRIh3AdC27rA3TT/64UPPD+C1jO42GGrH1xmVZy2eigdaAlmltLYCmS2cQ68ztLCGjLVScvu/BlDqP/1mEFe+60fdKcQTbP9ULxTy26/11qK0pquZTXGyNgiSwaxAE7is1zt8brSueLyACql7wpQLrSpw1ge5B+QSZ2wp+H7K/xP0im77bdwLRE0rWEWHA0nOMwSZg/WCLgFLk0O9wEOyMHJCvU+Ms7JI2TiLrA/tHqSVnwmsmMrT8wh7btDx3UJZX8coWLQR8PLIe7ZzVoL6ga79VdPvoCZMO5EJ1wAqv4yS3EH7UyVA8WZAV8=
+  app: agile-journey-66555
+  on:
+    repo: arisimon/node-shopping-list-integration-tests
